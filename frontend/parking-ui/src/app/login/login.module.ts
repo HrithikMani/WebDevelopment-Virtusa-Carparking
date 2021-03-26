@@ -16,6 +16,7 @@ import { LoginFormComponent } from './login-form/login-form.component';
   imports: [
     CommonModule,
     LoginRoutingModule
-  ]
+  ],
+  exports:[HomeHeaderComponent]
 })
 export class LoginModule { }
