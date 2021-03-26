@@ -1,0 +1,14 @@
+.rowTable{
+    margin:10px;
+}
+.btnCustom{
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #facf5a;
+}
+.headColor{
+    background-color: #49beb7;
+    color: white;
+}
