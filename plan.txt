@@ -1,0 +1,53 @@
+Functional Requirements:
+- A system for an Admin who can enter the employee details like name, contact
+number, vehicle details etc
+- Corporate employees can register the details to the website.
+- The facility to check whether the vehicle and driver is authorized or not
+- Admin can view the report of the car pooling process to improve the system
+- Employees can report suggestions/complaints in the website
+- Employees receive SMS alerts regarding the route and timings.
+- Maximum 4 Person allowed for a car.
+
+
+System will generate Monthly Reports and Weekly Reports
+
+Application assumptions:
+1. The login page should be the first page rendered when the application loads.
+2. Manual routing should be restricted by using AuthGaurd by implementing the
+canActivate interface. For example, if the user enters as 
+http://localhost:4200/signup or http://localhost:4200/home the page should not
+navigate to the corresponding page instead it should redirect to the login page.
+3. Unless logged into the system, the user cannot navigate to any other pages.
+4. Logging out must again redirect to the login page.
+5. To navigate to the admin side, you can store a user type as admin in the database
+with a username and password as admin.
+6. Use admin/admin as the username and password to navigate to the admin
+dashboard.
+
+Validations:
+1. Basic email validation should be performed.
+2. Basic mobile validation should be performed.
+
+---------------------------------------------------------------------------------------
+Specify the type of commit:
+feat: The new feature you're adding to a particular application
+fix: A bug fix
+style: Feature and updates related to styling
+refactor: Refactoring a specific section of the codebase
+test: Everything related to testing
+docs: Everything related to documentation
+chore: Regular code maintenance.[ You can also use emojis to represent commit types]
+Separate the subject from the body with a blank line
+Your commit message should not contain any whitespace errors
+Remove unnecessary punctuation marks
+Do not end the subject line with a period
+Capitalize the subject line and each paragraph
+Use the imperative mood in the subject line
+Use the body to explain what changes you have made and why you made them.
+Do not assume the reviewer understands what the original problem was, ensure you add it.
+Do not think your code is self-explanatory
+Follow the commit convention defined by your team
+
+Login page
+    ->Logo
+    -> Login Form
